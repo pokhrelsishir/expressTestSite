@@ -12,6 +12,6 @@ VOLUME ["/var/www"]
 
 RUN        npm install
 
-EXPOSE 3000
+EXPOSE $PORT
 
 ENTRYPOINT ["npm", "start"]
